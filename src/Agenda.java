@@ -63,7 +63,7 @@ public class Agenda extends Pessoas {
     public void imprimirAgenda() {
 
         if(iVetor == 0) {
-            System.out.println("Você não tem amigos\n");
+            System.out.println("Você não tem família\n");
         } else {
             for(int indice = 0; indice < iVetor; indice++) {
 
